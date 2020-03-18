@@ -1,0 +1,57 @@
+
+.footer {
+
+    margin:0;
+    padding:0;
+    overflow: hidden;
+    background-color: rgb(20, 19, 19);
+  }
+  embed-responsive-16by9-fix-contact-form::before {
+    height: 250px;
+  }
+  
+  @media (min-width:580px) {
+  
+    .modal-contact-form-fix,
+    .modal-contact-form-fix * {
+  
+      box-sizing: content-box !important;
+    }
+  }
+
+  footer.page-footer .footer-copyright {
+    overflow: hidden;
+    color: rgba(255,255,255,0.6);
+  }
+
+ footer.page-footer a {
+    color: #007bff;
+    text-decoration: none;
+    cursor: pointer;
+    -webkit-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    text-underline-position: below;
+    background-color: whitesmoke;
+}
+
+footer.page-footer a :hover {
+  border-color: white;
+  color: black;
+  }
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+user agent stylesheet
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+
+
+
+  
+  
